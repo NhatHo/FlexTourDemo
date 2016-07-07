@@ -27,7 +27,8 @@
     "./src/components/view/sections/Attributes.tsx",
     "./src/components/view/sections/AttributesBox.tsx",
     "./src/components/view/sections/NewFeatures.tsx",
-    "./src/components/view/sections/SectionHeader.tsx"
+    "./src/components/view/sections/SectionHeader.tsx",
+    "./src/components/view/sections/Demo.tsx"
   ],
   "scripts": {
     "postbuild": "Build successful"

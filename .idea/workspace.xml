@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa77f254-2496-47d2-a82c-03add8db01b6" name="Default" comment="" />
+    <list default="true" id="aa77f254-2496-47d2-a82c-03add8db01b6" name="Default" comment="Add attributes section of the web.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/icons/action.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/icons/info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/icons/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flextour.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flextour.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flextour.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/view/sections/Demo.tsx" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/flextour.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/flextour.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/flextour.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/icons/action.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/icons/info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/icons/loading.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/Body.js" afterPath="$PROJECT_DIR$/dist/components/view/Body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/Body.js.map" afterPath="$PROJECT_DIR$/dist/components/view/Body.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/Attributes.js" afterPath="$PROJECT_DIR$/dist/components/view/sections/Attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/Attributes.js.map" afterPath="$PROJECT_DIR$/dist/components/view/sections/Attributes.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/AttributesBox.js" afterPath="$PROJECT_DIR$/dist/components/view/sections/AttributesBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/AttributesBox.js.map" afterPath="$PROJECT_DIR$/dist/components/view/sections/AttributesBox.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/Body.tsx" afterPath="$PROJECT_DIR$/src/components/view/Body.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" afterPath="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/sections/AttributesBox.tsx" afterPath="$PROJECT_DIR$/src/components/view/sections/AttributesBox.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.less" afterPath="$PROJECT_DIR$/src/styles/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+    </list>
     <ignored path="FlexTourDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,16 +54,38 @@
       <file leaf-file-name="Attributes.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/view/sections/Attributes.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="1318">
+              <caret line="77" column="304" selection-start-line="77" selection-start-column="304" selection-end-line="77" selection-end-column="304" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <element signature="n#!!block;n#render#0;n#Attributes#0" expanded="true" />
                 <element signature="n#!!block;n#makeRequiredLeftBlock#0;n#Attributes#0" expanded="true" />
                 <element signature="n#!!block;n#makeRequiredRightBlock#0;n#Attributes#0" expanded="true" />
-                <element signature="n#!!block;n#makeOptionalRightBlock#0;n#Attributes#0" expanded="true" />
+                <element signature="n#!!block;n#makeOptionalLeftBlock#0;n#Attributes#0" expanded="true" />
                 <element signature="n#!!block;n#attributeStyles#0;n#Attributes#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributesBox.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/view/sections/AttributesBox.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="65" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="65" />
+              <folding>
+                <element signature="n#!!block;n#render#0;n#AttributesBox#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/view/sections/Demo.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,18 +93,50 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
+            <state relative-caret-position="918">
+              <caret line="220" column="1" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="flextour.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/flextour.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="160">
+              <caret line="3582" column="13" selection-start-line="3582" selection-start-column="13" selection-end-line="3582" selection-end-column="13" />
+              <folding>
+                <element signature="e#1929#30281#0" expanded="true" />
+                <element signature="e#30353#59770#0" expanded="true" />
+                <element signature="e#55511#55699#0" expanded="true" />
+                <element signature="e#63773#75495#0" expanded="true" />
+                <element signature="e#64610#64955#0" expanded="true" />
+                <element signature="e#72305#72805#0" expanded="true" />
+                <element signature="e#73960#74509#0" expanded="true" />
+                <element signature="e#74026#74494#0" expanded="true" />
+                <element signature="e#76650#76820#0" expanded="true" />
+                <element signature="e#77407#77536#0" expanded="true" />
+                <element signature="e#190335#190614#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributesBox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/components/view/sections/AttributesBox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -70,6 +152,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nhat Ho &lt;nhatminhhoca@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -83,14 +173,15 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/view/sections/NewFeatures.tsx" />
         <option value="$PROJECT_DIR$/src/components/view/sections/SectionHeader.tsx" />
-        <option value="$PROJECT_DIR$/src/components/view/Body.tsx" />
         <option value="$PROJECT_DIR$/src/components/view/sections/Description.tsx" />
         <option value="$PROJECT_DIR$/src/components/view/Header.tsx" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" />
+        <option value="$PROJECT_DIR$/src/components/view/Body.tsx" />
+        <option value="$PROJECT_DIR$/src/components/view/sections/Demo.tsx" />
         <option value="$PROJECT_DIR$/src/components/view/sections/AttributesBox.tsx" />
         <option value="$PROJECT_DIR$/src/styles/main.less" />
-        <option value="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -113,7 +204,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -220,32 +311,6 @@
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Header.tsx" />
-              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlexTourDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlexTourDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -299,11 +364,105 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,11 +674,13 @@
       <workItem from="1467675820822" duration="13025000" />
       <workItem from="1467765362222" duration="4728000" />
       <workItem from="1467808174537" duration="6808000" />
+      <workItem from="1467853066045" duration="4912000" />
+      <workItem from="1467860243976" duration="3807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50650000" />
+    <option name="totallyTimeSpent" value="59369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,20 +692,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="3862" height="2122" extended-state="7" />
+    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16304924" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5108523" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21969296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21916358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15137857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11134677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889834" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -553,8 +714,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889834" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -567,55 +732,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Add attributes section of the web." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add attributes section of the web." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/view/Header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#Header#0" expanded="false" />
-            <element signature="n#!!block;n#createTourDesc#0;n#Header#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/view/Body.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/view/sections/Attributes.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="n#!!block;n#render#0;n#Attributes#0" expanded="true" />
-            <element signature="n#!!block;n#makeRequiredLeftBlock#0;n#Attributes#0" expanded="true" />
-            <element signature="n#!!block;n#makeRequiredRightBlock#0;n#Attributes#0" expanded="true" />
-            <element signature="n#!!block;n#makeOptionalRightBlock#0;n#Attributes#0" expanded="true" />
-            <element signature="n#!!block;n#attributeStyles#0;n#Attributes#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/view/sections/AttributesBox.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#render#0;n#AttributesBox#0" expanded="true" />
-            <element signature="n#!!block;n#makeAttributeBox#0;n#AttributesBox#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,11 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#Header#0" expanded="false" />
-            <element signature="n#!!block;n#createTourDesc#0;n#Header#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,9 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +795,7 @@
             <element signature="n#!!block;n#render#0;n#Attributes#0" expanded="true" />
             <element signature="n#!!block;n#makeRequiredLeftBlock#0;n#Attributes#0" expanded="true" />
             <element signature="n#!!block;n#makeRequiredRightBlock#0;n#Attributes#0" expanded="true" />
-            <element signature="n#!!block;n#makeOptionalRightBlock#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#makeOptionalLeftBlock#0;n#Attributes#0" expanded="true" />
             <element signature="n#!!block;n#attributeStyles#0;n#Attributes#0" expanded="true" />
           </folding>
         </state>
@@ -679,7 +807,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#render#0;n#AttributesBox#0" expanded="true" />
-            <element signature="n#!!block;n#makeAttributeBox#0;n#AttributesBox#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,11 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#Header#0" expanded="false" />
-            <element signature="n#!!block;n#createTourDesc#0;n#Header#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,11 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#Header#0" expanded="false" />
-            <element signature="n#!!block;n#createTourDesc#0;n#Header#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,13 +897,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/flextourjs/flextour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="1335" column="14" selection-start-line="1335" selection-start-column="14" selection-end-line="1335" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/flextourjs/flextour.js" />
     <entry file="file://$PROJECT_DIR$/src/components/models/TourDescriptions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -828,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1372">
           <caret line="69" column="22" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="262" column="531" selection-start-line="262" selection-start-column="531" selection-end-line="262" selection-end-column="531" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,73 +1045,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/src/components/view/Header.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="675">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/view/Header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#Header#0" expanded="false" />
-            <element signature="n#!!block;n#createTourDesc#0;n#Header#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/view/Body.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="81">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding>
-            <element signature="e#0#31#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#Body#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/view/sections/AttributesBox.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="567">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="65" />
           <folding>
             <element signature="n#!!block;n#render#0;n#AttributesBox#0" expanded="true" />
-            <element signature="n#!!block;n#makeAttributeBox#0;n#AttributesBox#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/view/sections/Demo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
+        <state relative-caret-position="918">
+          <caret line="220" column="1" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/flextour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="3582" column="13" selection-start-line="3582" selection-start-column="13" selection-end-line="3582" selection-end-column="13" />
+          <folding>
+            <element signature="e#1929#30281#0" expanded="true" />
+            <element signature="e#30353#59770#0" expanded="true" />
+            <element signature="e#55511#55699#0" expanded="true" />
+            <element signature="e#63773#75495#0" expanded="true" />
+            <element signature="e#64610#64955#0" expanded="true" />
+            <element signature="e#72305#72805#0" expanded="true" />
+            <element signature="e#73960#74509#0" expanded="true" />
+            <element signature="e#74026#74494#0" expanded="true" />
+            <element signature="e#76650#76820#0" expanded="true" />
+            <element signature="e#77407#77536#0" expanded="true" />
+            <element signature="e#190335#190614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/components/view/sections/AttributesBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/view/sections/Attributes.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="1318">
+          <caret line="77" column="304" selection-start-line="77" selection-start-column="304" selection-end-line="77" selection-end-column="304" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <element signature="n#!!block;n#render#0;n#Attributes#0" expanded="true" />
             <element signature="n#!!block;n#makeRequiredLeftBlock#0;n#Attributes#0" expanded="true" />
             <element signature="n#!!block;n#makeRequiredRightBlock#0;n#Attributes#0" expanded="true" />
-            <element signature="n#!!block;n#makeOptionalRightBlock#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#makeOptionalLeftBlock#0;n#Attributes#0" expanded="true" />
             <element signature="n#!!block;n#attributeStyles#0;n#Attributes#0" expanded="true" />
           </folding>
         </state>

@@ -11,10 +11,10 @@ var AttributesBox = (function (_super) {
         _super.apply(this, arguments);
     }
     AttributesBox.prototype.render = function () {
-        return React.createElement("li", null, React.createElement("div", {className: "attributes-image fa-stack fa-4x"}, React.createElement("i", {className: "fa fa-inverse attributes-icon " + this.props.icon})), this.makeAttributeBox(this.props.leftHeader, "attributes-panel", this.props.leftBlock), this.makeAttributeBox(this.props.rightHeader, "attributes-panel-inverted", this.props.rightBlock));
+        return React.createElement("li", null, this.makeAttributeBox(this.props.leftHeader, "attributes-panel", this.props.leftBlock), this.makeAttributeBox(this.props.rightHeader, "attributes-panel-inverted", this.props.rightBlock));
     };
     AttributesBox.prototype.makeAttributeBox = function (type, className, body) {
-        return (React.createElement("div", {className: className}, React.createElement("div", {className: "attributes-heading"}, React.createElement("h4", null, type)), React.createElement("div", {className: "attributes-body"}, body)));
+        return (React.createElement("div", {className: className}, React.createElement("div", {className: "attributes-heading"}, React.createElement("h3", null, React.createElement("u", {className: "attributes-heading-colorful"}, type))), React.createElement("div", {className: "attributes-body"}, body)));
     };
     return AttributesBox;
 }(React.Component));
