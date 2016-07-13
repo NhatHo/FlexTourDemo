@@ -26,7 +26,7 @@ header {
   background-color: @HeaderColor;
   padding-top: 60px;
   text-align: center;
-  height: 450px;
+  height: 400px;
   width: 100%;
   color: @TextColor;
   vertical-align: middle;
@@ -55,6 +55,11 @@ header {
     .header-button {
       padding-left: 5px;
     }
+
+    .media-block {
+      margin-top: 15px;
+      display: block;
+    }
   }
 }
 
@@ -63,7 +68,7 @@ section {
   text-align: center;
 
   .section-header {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   h2.section-heading {
@@ -79,7 +84,7 @@ section {
   h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: @SubHeaderColor;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .desc-heading {
@@ -102,9 +107,9 @@ section {
   background-color: @SlightlyWhite;
 
   .section-header {
-    background: url("./img/whatsnew.png");
+    background: url("./img/new.png");
+    -webkit-background-size: cover;
     background-size: cover;
-
     h2.section-heading {
       color: black;
     }
@@ -128,11 +133,11 @@ section {
 #attributes {
   background-color: @AttributeBackGroundColor;
   .section-header {
-    background: url("./img/gear.jpg");
+    background: url("./img/gear.png");
     -webkit-background-size: cover;
     background-size: cover;
     h2.section-heading {
-      color: black;
+      color: @TextColor;
     }
 
     h3.section-subheading {
@@ -184,9 +189,9 @@ section {
 }
 
 #wiki {
-  background-color: #FFFFFF;
+  background-color: floralwhite;
   .section-header {
-    background: url("./img/info.jpg");
+    background: url("./img/api.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     h2.section-heading {
@@ -199,8 +204,9 @@ section {
   }
 
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-    background-color: #777777;
+    background-color: #B8860B;
     color: @SlightlyWhite;
+    font-weight: 800;
   }
 
   .wiki-tab-header {
@@ -220,6 +226,36 @@ section {
   .attributes-block-api {
     padding-top: 20px;
     text-align: left;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+
+  .non-list-block {
+    padding-left: 40px;
+  }
+
+  .tab-content {
+    background-color: white;
+  }
+
+  .instruction {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+  }
+
+  .attribute-line, .attribute-code-line {
+    font-size: 10pt;
+    line-height: 20px;
+  }
+
+  .tab-notice {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+  }
+
+  .attr-code {
+    background-color: khaki;
   }
 }
 
@@ -252,5 +288,15 @@ hr {
   -ms-transition: opacity 2.25s linear;
   -o-transition: opacity 2.25s linear;
   transition: opacity 2.25s linear;
+}
+
+.footer-style {
+  background: #2b2b2b;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  color: @SlightlyWhite;
 }
 

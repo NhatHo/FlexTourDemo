@@ -12,6 +12,11 @@ export class Header extends React.Component<{}, {}> {
                         <span className="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
                         <span className="header-button">Demo Time!</span>
                     </a>
+                    <div className="media-block">
+                        <a href="https://github.com/NhatHo/FlexTourJs" target="_blank">
+                            <span className="fa fa-github fa-4x"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </header>;

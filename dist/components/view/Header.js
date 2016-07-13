@@ -12,7 +12,16 @@ var Header = (function (_super) {
         _super.apply(this, arguments);
     }
     Header.prototype.render = function () {
-        return React.createElement("header", null, React.createElement("div", {className: "container"}, React.createElement("div", {className: "header-content"}, React.createElement("div", {className: "header-name"}, "Flexible Tour Framework"), React.createElement("div", {className: "header-subname"}, "Guide your customers through your amazing application."), React.createElement("a", {className: "page-scroll btn btn-success btn-lg", onClick: this.onClick}, React.createElement("span", {className: "glyphicon glyphicon-play-circle", "aria-hidden": "true"}), React.createElement("span", {className: "header-button"}, "Demo Time!")))));
+        return React.createElement("header", null, React.createElement("div", {className: "container"}, React.createElement("div", {className: "header-content"}, React.createElement("div", {className: "header-name"}, "Flexible Tour Framework"), React.createElement("div", {className: "header-subname"}, "Guide your customers through your amazing application."), React.createElement("a", {
+            className: "page-scroll btn btn-success btn-lg",
+            onClick: this.onClick
+        }, React.createElement("span", {
+            className: "glyphicon glyphicon-play-circle",
+            "aria-hidden": "true"
+        }), React.createElement("span", {className: "header-button"}, "Demo Time!")), React.createElement("div", {className: "media-block"}, React.createElement("a", {
+            href: "https://github.com/NhatHo/FlexTourJs",
+            target: "_blank"
+        }, React.createElement("span", {className: "fa fa-github fa-4x"}))))));
     };
     Header.prototype.onClick = function (event) {
         event.stopPropagation();

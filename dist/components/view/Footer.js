@@ -11,7 +11,7 @@ var Footer = (function (_super) {
         _super.apply(this, arguments);
     }
     Footer.prototype.render = function () {
-        return React.createElement("div", null);
+        return React.createElement("footer", {className: "footer-style"}, React.createElement("div", {className: "container"}, React.createElement("h4", null, "Created by Nhat Ho - nhatminhhoca@gmail.com - Copyright 2016")));
     };
     return Footer;
 }(React.Component));

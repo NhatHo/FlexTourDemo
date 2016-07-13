@@ -47,8 +47,8 @@ export class Attributes extends React.Component<{}, {}> {
 
     private _linkToDemoAndSource(demoLink:string, sourceLink:string):JSX.Element {
         return <div className="link">
-            <p><a href={demoLink} className="btn btn-primary demo-button" target="_blank"><i className="fa fa-link"></i>
-                Demo!</a>
+            <p><a href={demoLink} className="btn btn-primary demo-button" target="_blank">
+                <i className="fa fa-link"></i> Demo!</a>
                 <a href={sourceLink} className="btn btn-success" target="_blank"><i className="fa fa-github"></i> Code?</a>
             </p>
         </div>

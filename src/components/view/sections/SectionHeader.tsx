@@ -7,7 +7,7 @@ interface ISectionHeader {
 
 export class SectionHeader extends React.Component<ISectionHeader, {}> {
     render() {
-        return <div className="row section-header">
+        return <div className="section-header">
             <div className="container">
                 <div className="col-lg-12 text-center">
                     <h2 className="section-heading">{this.props.header}</h2>
