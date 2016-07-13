@@ -7,14 +7,14 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = require("react");
 var Description_1 = require("./sections/Description");
 var Attributes_1 = require("./sections/Attributes");
-var Demo_1 = require("./sections/Demo");
+var Wiki_1 = require("./sections/Wiki");
 var Body = (function (_super) {
     __extends(Body, _super);
     function Body() {
         _super.apply(this, arguments);
     }
     Body.prototype.render = function () {
-        return React.createElement("div", {className: "bodybackground"}, React.createElement(Description_1.Description, null), React.createElement(Attributes_1.Attributes, null), React.createElement(Demo_1.Demo, null));
+        return React.createElement("div", {className: "bodybackground"}, React.createElement(Description_1.Description, null), React.createElement(Attributes_1.Attributes, null), React.createElement(Wiki_1.Wiki, null));
     };
     return Body;
 }(React.Component));

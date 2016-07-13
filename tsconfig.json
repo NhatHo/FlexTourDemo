@@ -23,12 +23,13 @@
     "./src/components/App.tsx",
     "./src/components/view/Header.tsx",
     "./src/components/view/Body.tsx",
+    "./src/components/view/Footer.tsx",
     "./src/components/view/sections/Description.tsx",
     "./src/components/view/sections/Attributes.tsx",
-    "./src/components/view/sections/AttributesBox.tsx",
+    "./src/components/view/sections/AttributeBox.tsx",
     "./src/components/view/sections/NewFeatures.tsx",
     "./src/components/view/sections/SectionHeader.tsx",
-    "./src/components/view/sections/Demo.tsx"
+    "./src/components/view/sections/Wiki.tsx"
   ],
   "scripts": {
     "postbuild": "Build successful"

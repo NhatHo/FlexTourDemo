@@ -6,42 +6,60 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = require("react");
 var SectionHeader_1 = require("./SectionHeader");
-var AttributesBox_1 = require("./AttributesBox");
+var AttributeBox_1 = require("./AttributeBox");
 var Attributes = (function (_super) {
     __extends(Attributes, _super);
     function Attributes() {
         _super.apply(this, arguments);
     }
     Attributes.prototype.render = function () {
-        return React.createElement("section", {id: "attributes"}, React.createElement("div", {className: "container"}, React.createElement(SectionHeader_1.SectionHeader, {
-            header: "How to use it?",
-            subHeader: "Your tours will be described in form of array of JSON object. Each object will declare 1 tour."
-        }), React.createElement("div", {className: "row"}, React.createElement("div", {className: "col-lg-12"}, React.createElement("ul", {className: "attributes-list"}, React.createElement(AttributesBox_1.AttributesBox, {
-            leftHeader: "Required Tour Attributes",
-            rightHeader: "Required Step Attributes",
-            leftBlock: this.makeRequiredLeftBlock(),
-            rightBlock: this.makeRequiredRightBlock()
-        }), React.createElement(AttributesBox_1.AttributesBox, {
-            leftHeader: "Optional Tour Attributes",
-            rightHeader: "Optional Step Attributes",
-            leftBlock: this.makeOptionalLeftBlock(),
-            rightBlock: this.makeOptionalRightBlock()
-        }))))));
+        return React.createElement("section", {id: "attributes"}, React.createElement(SectionHeader_1.SectionHeader, {header: "How to use it?", subHeader: "Your tours will be described in form of array of JSON objects. Each object will describe 1 tour."}), React.createElement("div", {className: "container"}, React.createElement("div", {className: "row"}, React.createElement(AttributeBox_1.AttributeBox, {header: "Let's Start Simple", subHeader: "How to create a simple tour with unidirectional flow?", content: this._regularTourRunner()}), React.createElement(AttributeBox_1.AttributeBox, {header: "Error Checkings", subHeader: "How to capture dynamic components successfully?", content: this._prerequisitesAndBranching()})), React.createElement("div", {className: "row"}, React.createElement(AttributeBox_1.AttributeBox, {header: "Wait For It", subHeader: "How to make your tours wait for next step and setup backup route?", content: this._waitForElementAndFinalResort()}), React.createElement(AttributeBox_1.AttributeBox, {header: "One Page Is Not Enough", subHeader: "How to show tour in multiple pages, stop and resume current tour?", content: this._multipagePauseAndResume()})), React.createElement("div", {className: "row"}, React.createElement(AttributeBox_1.AttributeBox, {header: "Customized Triggers For Next Step", subHeader: "How to allow drag and drop, trigger next step on application's button clicked?", content: this._nextTriggerDnD()}), React.createElement(AttributeBox_1.AttributeBox, {header: "You Can Do Whatever You Want.", subHeader: "How to change color scheme, and create your own bubbles?", content: this._standaloneBubble()})), React.createElement("div", {className: "row"}, React.createElement(AttributeBox_1.AttributeBox, {header: "FlexTourJS Follows Your Cool Features", subHeader: "How to always keep the tour description at your step target?", content: this._floatingElements()}), React.createElement(AttributeBox_1.AttributeBox, {header: "Global Application Translation Made Easy", subHeader: "How to translate your tour into multiple languages?", content: this._nlsTranslation()}))));
     };
-    Attributes.prototype.makeRequiredLeftBlock = function () {
-        return React.createElement("ul", null, this.attributeStyles("id", "Each tour should have a unique id so that they can be found easier."));
+    Attributes.prototype._linkToDemoAndSource = function (demoLink, sourceLink) {
+        return React.createElement("div", {className: "link"}, React.createElement("p", null, React.createElement("a", {href: demoLink, className: "btn btn-primary demo-button", target: "_blank"}, React.createElement("i", {className: "fa fa-link"}), "Demo!"), React.createElement("a", {href: sourceLink, className: "btn btn-success", target: "_blank"}, React.createElement("i", {className: "fa fa-github"}), " Code?")));
     };
-    Attributes.prototype.makeRequiredRightBlock = function () {
-        return React.createElement("ul", null, this.attributeStyles("content", "This is what will be showed in the bubble of each step."), this.attributeStyles("target", "The DOM Element that the step bubble will be attached to."), this.attributeStyles("position", "The relative position of the bubble to the target: top, bottom, right, left or float. When you set this attribute to float, 'target' is no longer a required attribute."));
+    Attributes.prototype._attributeContentBlock = function (body, buttons) {
+        return React.createElement("div", {className: "col-lg-12 attributes-content"}, React.createElement("p", null, body), buttons);
     };
-    Attributes.prototype.makeOptionalLeftBlock = function () {
-        return React.createElement("ul", null, this.attributeStyles("endOnEsc: {Boolean}", "Default true, enables the ability to end FlexTourJS runner when press ESC on keyboard."), this.attributeStyles("endOnOverlayClick: {Boolean}", "Default true, end FlexTourJS runner when users click on the overlay outside of target. If the target is small and users might misclick, you can disable this by setting to false."), this.attributeStyles("noButtons: {Boolean}", "Default false, when set to true it will disable all navigation buttons in all of the steps of the tour."), this.attributeStyles("noBack: {Boolean}", "Default false, when set to true, the Back button in all steps will be disabled."), this.attributeStyles("delay: {Integer}", "The framework will wait until this period of time to pass before showing Each step bubble."), this.attributeStyles("waitIntervals: {Integer}", "Usually this is used with 'retries' attribute, this attribute defines the cool down period between retries."), this.attributeStyles("retries: {Integer}", "The total number of attempts that the framework will make before it moves on."), this.attributeStyles("canInteract: {Boolean}", "Default false, when set to true users can interact with all targets in the tour, unless it is redefined in specific step. This attribute should only be used when you are certain that users playing around with target will not break the flow."), this.attributeStyles("nextButton: {String}", "Change the text of the next button to a new text. Usually used for localization."), this.attributeStyles("backButton: {String}", "Change the text of the back button to a new text. Usually used for localization."), this.attributeStyles("skipButton: {String}", "Change the text of the skip button to a new text. Usually used for localization."), this.attributeStyles("doneButton: {String}", "Change the text of the done button to a new text. Usually used for localization."));
+    Attributes.prototype._regularTourRunner = function () {
+        var body = "In this example, FlexTourJS simply moves between steps without any fancy features. This might be used for simple applications where each step exist and are visible in the DOM when the page is loaded.";
+        var buttons = this._linkToDemoAndSource("regular", "regular");
+        return this._attributeContentBlock(body, buttons);
     };
-    Attributes.prototype.makeOptionalRightBlock = function () {
-        return React.createElement("ul", null, React.createElement("div", {className: "optional-subheader"}, React.createElement("b", null, "Notice:"), "All of the attributes set in tour are inherited by each step. You can override tour’s attributes or add new attribute to each step by re-defining the attribute in step object."), this.attributeStyles("type: {String}", "Default 'info', there are 2 types in FlexTourJS: 'info', 'action'. Type 'info' represents steps where users just read the information in the bubble and move on. While 'action' indicates that users have to interact with the target as described in the step content."), this.attributeStyles("nextOnTarget: {Boolean}", "This attribute enables FlexTourJS to proceed to the next step when the target of the current step is triggered."), this.attributeStyles("transition: {Boolean}", "When a step is marked as 'transition', FlexTourJS immediately proceeds to next step right after showing the bubble of current step. This attribute should only be used when you know the next step will take quite some time to render: server call, create new things, etc."), this.attributeStyles("modal: {Boolean}", "When set the true, FlexTourJS will attach a listener to scroll event, it will debounce every 200 milliseconds and re-render all components in FlexTourJS. This is to ensure that the bubble is always attached to target even when users scroll to the bottom of the page. This is usually used for floating element: popup dialogs, popup messages, etc."), this.attributeStyles("scrollLock: {Boolean}", "Similar to 'modal' attribute, this attribute is mostly used for modal element in the DOM. However, by setting this attribute to true, FlexTour will temporarily disable scolling in your app. The current scroll position will be restored when you enter the next step or end FlexTourJS. This method will cause less performance hit to your application compared to 'modal' as it does NOT re-render on scroll."), this.attributeStyles("skip: {Integer}", "This attribute enables branching to another step with given index number. Skip button will be show in this step. On click, the framework will skip to the step with the given index. This attribute is usually used hand and hand with proceed if function in 'prerequisites' attribute."), this.attributeStyles("prerequisites: {String[]}", "This attribute is the main feature of FlexTourJS. There are 3 types of prerequisites you can set: conditional functions, wait for a function to do something and proceed to next step if some conditions are met. Respectively, the syntax of each one is as follow: condFunctionName, ?functionName:params, !functionName:params. The framework loops through the array and executes 1 function at a time. Now hold on to your hat!."), React.createElement("ul", null, this.attributeStyles("condFunctionName: {Boolean}", "When a conditional function returns false, the framework will stop checking and stay at the same step. This is useful when you want to make sure users do something before they enter next step."), this.attributeStyles("waitForFunction: {Boolean}", "FlexTourJS provides isVisible (check if DOM element is visible), and doesExist (check if DOM element exists) as default function. You can also create your own function. When the function returns false, the framework will retry after a set time interval set in tour description. When it runs out of retry attempts, it will check the next function (usually proceed if function)."), this.attributeStyles("proceedIfFunctiion: {Boolean}", "It is recommended to have a skip if prerequisite after a wait for function as the last resort. When proceed if function returns false, it means that the conditions are not met and FlexTourJS will not show the next step but skip to the step you set in 'skip' attribute. If 'skip' attribute is not set, FlexTourJS will skip 2 steps ahead to avoid failure in next step.")));
+    Attributes.prototype._prerequisitesAndBranching = function () {
+        var body = "When your applications get complicated, maybe the next step in your tour is important to show, but it might not be available yet. FlexTourJS allows you to slow down the flow, and possibly skips steps entirely in case something bad happens.";
+        var buttons = this._linkToDemoAndSource("prerequisite", "prerequisite");
+        return this._attributeContentBlock(body, buttons);
     };
-    Attributes.prototype.attributeStyles = function (attribute, description) {
-        return React.createElement("li", {className: "params-text"}, React.createElement("div", null, React.createElement("h5", {className: "attribute-title"}, attribute), React.createElement("p", null, description)));
+    Attributes.prototype._waitForElementAndFinalResort = function () {
+        var body = "Consider this: when your application makes an AJAX call or processing something that takes up a lot of time, your tour might need to wait for it to be done. This demo shows you how to make the tour wait, while explaining to users what is going on. Furthermore, if anything goes wrong in the process, you can setup a backup route so that your tour will not end abruptly.";
+        var buttons = this._linkToDemoAndSource("wait", "wait");
+        return this._attributeContentBlock(body, buttons);
+    };
+    Attributes.prototype._multipagePauseAndResume = function () {
+        var body = "When your tour spans multiple pages, just set the multipage flag to true in the step that opens new page and FlexTourJS will take care of the rest. Requirement: the next page must also have FlexTourJS framework and current tour loaded. The framework will automatically continue your tour from previous page. Furthermore, you can pause and resume the tour anytime you like.";
+        var buttons = this._linkToDemoAndSource("multipage", "multipage");
+        return this._attributeContentBlock(body, buttons);
+    };
+    Attributes.prototype._nextTriggerDnD = function () {
+        var body = "Enabling dragAndDrop flag to true in step description will allow you to drag and drop target around without breaking your current tour. Directional buttons in the bubble are not the only way to control the flow, you can make a button in your application to next step trigger. This demo will show you how.";
+        var buttons = this._linkToDemoAndSource("trigger", "trigger");
+        return this._attributeContentBlock(body, buttons);
+    };
+    Attributes.prototype._standaloneBubble = function () {
+        var body = "You don't think FlexTourJS bubble is good enough for you? No problem, you can just create your own version with functional buttons. This demo will show you how to do that. You don't like the default color and styles? Just import the less file and override the variables with your own selections.";
+        var buttons = this._linkToDemoAndSource("standalone", "standalone");
+        return this._attributeContentBlock(body, buttons);
+    };
+    Attributes.prototype._floatingElements = function () {
+        var body = "More often that not your application has a floating element which never stays still. FlexTourJS has 2 ways to handle this scenario, either you block scrolling when this step is showed, or you let the framework re-render every 200 milliseconds.";
+        var buttons = this._linkToDemoAndSource("floating", "floating");
+        return this._attributeContentBlock(body, buttons);
+    };
+    Attributes.prototype._nlsTranslation = function () {
+        var body = "Your application can go global and you might need to translate the instruction in the tour. FlexTourJS offers an easy way out so that you do not need to create and maintain multiple tour description JSON objects. Step description will be injected automatically.";
+        var buttons = this._linkToDemoAndSource("floating", "floating");
+        return this._attributeContentBlock(body, buttons);
     };
     return Attributes;
 }(React.Component));

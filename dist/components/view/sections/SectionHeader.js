@@ -11,7 +11,7 @@ var SectionHeader = (function (_super) {
         _super.apply(this, arguments);
     }
     SectionHeader.prototype.render = function () {
-        return React.createElement("div", {className: "row"}, React.createElement("div", {className: "col-lg-12 text-center"}, React.createElement("h2", {className: "section-heading"}, this.props.header), React.createElement("h3", {className: "section-subheading"}, this.props.subHeader)));
+        return React.createElement("div", {className: "row section-header"}, React.createElement("div", {className: "container"}, React.createElement("div", {className: "col-lg-12 text-center"}, React.createElement("h2", {className: "section-heading"}, this.props.header), React.createElement("hr", null), React.createElement("h3", {className: "section-subheading"}, this.props.subHeader))));
     };
     return SectionHeader;
 }(React.Component));

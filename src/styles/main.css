@@ -384,15 +384,103 @@ section h3.section-subheading {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #777;
 }
-section #desc .text-primary {
-  color: #fed130;
-}
-section #desc .desc-heading {
+
+section .desc-heading {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-section #desc .desc-content {
+
+section .desc-content {
   font-size: 14px;
   line-height: 1.75;
   color: #777;
+}
+
+section .text-primary {
+  color: #fed130;
+}
+
+#desc {
+  background-color: #f5f5f5;
+}
+
+#desc .feature-icon {
+  height: 1em;
+  line-height: 1em;
+}
+
+#desc .well {
+  background-color: #737373;
+  color: #FFFFFF;
+}
+
+#attributes {
+  background-color: #ffffff;
+}
+
+#attributes .row {
+  display: flex;
+}
+
+#attributes .attributes-block {
+  flex: 1;
+  background: #f2f2f2;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#attributes .attributes-block h4 {
+  color: #dadada;
+  padding-top: 0;
+}
+
+#attributes .attributes-block h5 {
+  color: #dadada;
+  font-size: 14px;
+}
+
+#attributes .attribute-title {
+  background: #2b2b2b;
+}
+
+#attributes .attributes-content {
+  padding-top: 12px;
+}
+
+#attributes .attributes-content h4 {
+  color: #111111;
+}
+
+#attributes .link {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+#attributes .link .demo-button {
+  margin-right: 20px;
+}
+
+.params-text {
+  color: #777;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+hr:before {
+  content: " ";
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background: #ccc;
 }

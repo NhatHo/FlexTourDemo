@@ -11,7 +11,7 @@ var NewFeatures = (function (_super) {
         _super.apply(this, arguments);
     }
     NewFeatures.prototype.render = function () {
-        return React.createElement("div", {className: "col-md-4"}, React.createElement("span", {className: "fa-stack fa-4x"}, React.createElement("i", {className: "fa fa-circle fa-stack-2x text-primary"}), React.createElement("i", {className: this.getIconClass(this.props.icon)})), React.createElement("h4", {className: "desc-heading"}, this.props.title), React.createElement("p", {className: "desc-content"}, this.props.content), React.createElement("div", {className: "well well-sm"}, React.createElement("i", {className: "fa fa-code"}, " "), " ", this.props.code, " ", React.createElement("i", {className: "fa fa-code"}, " ")));
+        return React.createElement("div", {className: "col-md-4"}, React.createElement("span", {className: "fa-stack fa-4x feature-icon"}, React.createElement("i", {className: this.getIconClass(this.props.icon)})), React.createElement("h4", {className: "desc-heading"}, this.props.title), React.createElement("p", {className: "desc-content"}, this.props.content), React.createElement("div", {className: "well well-sm"}, this.props.code));
     };
     NewFeatures.prototype.getIconClass = function (icon) {
         return "fa fa-stack-1x " + icon;
