@@ -19,7 +19,7 @@ export class TranslationTab extends React.Component<{}, {}> {
             {instruction("Create a tour object with attributes as explained in Tour Attributes and Step Attributes tabs. Instead of providing the full description, you just need to provide the keyword in step's content.")}
             <pre>{"var tourDesc = {\n\tid: 'sample',\n\t...\n\tsteps:[{\n\t\t...\n\t\tcontent: 'coolfeature'\n\t\t...\n\t}\n}];"}</pre>
             <hr/>
-            {instruction("Now, you need to provide an object contains translated object.")}
+            {instruction("Now, you need to provide an object contains translated content.")}
             <pre>{"var translationObject = {\n\t...\n\tcoolFeature: 'translatedString'\n\t...\n};"}</pre>
             {tabNotice("FlexTourJS will automatically inject the messages into the tour description file. By doing it this way, you only need to keep 1 tour description, and multiple translated files instead of multiple translated tour description. It reduces a huge amount of effort for maintainance.")}
             <pre>{"var flexTour = new FlexTour('tourDesc', 'functionsList|{}', 'translationObject);"}</pre>

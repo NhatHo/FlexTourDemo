@@ -1,4 +1,3 @@
-@import "../../lib/flextour";
 
 @TextColor: #111111;
 @LightBlue: rgba(227,227,227,1);
@@ -300,3 +299,67 @@ hr {
   color: @SlightlyWhite;
 }
 
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.navbar {
+  margin-bottom: 0;
+
+  .navbar-nav > li > a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.sticky {
+  position: fixed !important;
+  top: 10%;
+  left: 5px;
+  float: left;
+  width: 10%;
+  background-color: #222;
+  border-color: #080808;
+}
+
+.menu-padding {
+  padding-top: 40px;
+}
+
+.floating-nav {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0 !important;
+
+  & > li > a {
+    color: #9d9d9d;
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    text-decoration: none;
+
+    &:hover {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+
+a:hover {
+  outline: none;
+  cursor: context-menu;
+}
+
+.navbar-nav, .floating-nav {
+  & > li:hover {
+    background: darkslategrey;
+  }
+}
