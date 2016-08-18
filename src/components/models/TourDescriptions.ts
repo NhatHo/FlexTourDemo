@@ -2,13 +2,8 @@
  * Created by NhatHo on 2016-07-03.
  */
 
-export interface TourDescriptions {
-    tours: TourDescription[];
-}
-
 export interface TourDescription {
     id: string;
-    title: string;
     steps: StepDescription[];
     retries?: number;
     waitIntervals?: number;
@@ -22,8 +17,9 @@ export interface TourDescription {
     doneButton?: string;
 }
 
-interface StepDescription {
+export interface StepDescription {
     content: string;
+    title?: string;
     target?: string;
     canInteract?: boolean;
     nextOnTargetClick?: boolean;
@@ -39,7 +35,7 @@ interface StepDescription {
     noButtons?: boolean;
 }
 
-interface TransitionDesc {
+export interface TransitionDesc {
     title: string;
     content: string;
 }

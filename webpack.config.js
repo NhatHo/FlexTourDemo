@@ -1,8 +1,8 @@
 module.exports = {
     entry: "./src/index.tsx",
     output: {
-        path: "./dist",
-        filename: "bundle.js"
+        path: __dirname,
+        filename: "./dist/bundle.js"
     },
 
     // Enable sourcemaps for debugging webpack's output.
@@ -32,6 +32,7 @@ module.exports = {
     externals: {
         "react": "React",
         "react-dom": "ReactDOM",
-        "jquery": "jQuery"
+        "jquery": "jQuery",
+        "flextourjs": "FlexTour"
     }
 };

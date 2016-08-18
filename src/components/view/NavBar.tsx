@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as $ from "jquery";
+import DOMElement = __React.DOMElement;
 
 interface INavBarProps {
     floating:boolean;
@@ -12,33 +13,50 @@ export class NavBar extends React.Component<INavBarProps, {}> {
 
     render() {
         if (this.props.floating) {
-            $('.app').addClass("menu-padding");
-            return <div className="sticky">
-                <ul className="floating-nav">
-                    <li><a onClick={this.scrollTop.bind(this)}><span className="glyphicon glyphicon-home"></span>
-                        Top</a></li>
-                    <li><a onClick={this.scrollToDesc.bind(this)}><span
-                        className="glyphicon glyphicon-plus-sign"></span> Features</a></li>
-                    <li><a onClick={this.scrollToAttributes.bind(this)}><span
-                        className="glyphicon glyphicon-play"></span> Demo</a></li>
-                    <li><a onClick={this.scrollToWiki.bind(this)}><span className="glyphicon glyphicon-book"></span> Api</a>
-                    </li>
-                </ul>
-            </div>;
+            return <span>
+                <nav className="navbar navbar-inverse navbar-static-top" id="navbar">
+                    <div className="container">
+                        <div className="collapse navbar-collapse">
+                            <ul className="nav navbar-nav">
+                                <li><a onClick={this.scrollTop.bind(this)}>
+                                    <span className="glyphicon glyphicon-home"></span> Top</a></li>
+                                <li><a onClick={this.scrollToDesc.bind(this)}>
+                                    <span className="glyphicon glyphicon-plus-sign"></span> Features</a></li>
+                                <li><a onClick={this.scrollToAttributes.bind(this)}>
+                                    <span className="glyphicon glyphicon-play"></span> Demo</a></li>
+                                <li><a onClick={this.scrollToWiki.bind(this)}>
+                                    <span className="glyphicon glyphicon-book"></span> Api</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div className="sticky">
+                    <ul className="floating-nav">
+                        <li><a onClick={this.scrollTop.bind(this)}>
+                            <span className="glyphicon glyphicon-home"></span> Top</a></li>
+                        <li><a onClick={this.scrollToDesc.bind(this)}>
+                            <span className="glyphicon glyphicon-plus-sign"></span> Features</a></li>
+                        <li><a onClick={this.scrollToAttributes.bind(this)}>
+                            <span className="glyphicon glyphicon-play"></span> Demo</a></li>
+                        <li><a onClick={this.scrollToWiki.bind(this)}>
+                            <span className="glyphicon glyphicon-book"></span> Api</a>
+                        </li>
+                    </ul>
+                </div>
+            </span>;
         } else {
-            $('.app').removeClass("menu-padding");
             return <nav className="navbar navbar-inverse navbar-static-top" id="navbar">
                 <div className="container">
                     <div className="collapse navbar-collapse">
                         <ul className="nav navbar-nav">
-                            <li><a onClick={this.scrollTop.bind(this)}><span
-                                className="glyphicon glyphicon-home"></span> Top</a></li>
-                            <li><a onClick={this.scrollToDesc.bind(this)}><span
-                                className="glyphicon glyphicon-plus-sign"></span> Features</a></li>
-                            <li><a onClick={this.scrollToAttributes.bind(this)}><span
-                                className="glyphicon glyphicon-play"></span> Demo</a></li>
-                            <li><a onClick={this.scrollToWiki.bind(this)}><span
-                                className="glyphicon glyphicon-book"></span> Api</a></li>
+                            <li><a onClick={this.scrollTop.bind(this)}>
+                                <span className="glyphicon glyphicon-home"></span> Top</a></li>
+                            <li><a onClick={this.scrollToDesc.bind(this)}>
+                                <span className="glyphicon glyphicon-plus-sign"></span> Features</a></li>
+                            <li><a onClick={this.scrollToAttributes.bind(this)}>
+                                <span className="glyphicon glyphicon-play"></span> Demo</a></li>
+                            <li><a onClick={this.scrollToWiki.bind(this)}>
+                                <span className="glyphicon glyphicon-book"></span> Api</a></li>
                         </ul>
                     </div>
                 </div>

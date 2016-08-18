@@ -82,9 +82,9 @@
 	};
 	var React = __webpack_require__(1);
 	var Header_1 = __webpack_require__(5);
-	var Body_1 = __webpack_require__(6);
-        var Footer_1 = __webpack_require__(18);
-        var NavBar_1 = __webpack_require__(19);
+        var Body_1 = __webpack_require__(7);
+        var Footer_1 = __webpack_require__(19);
+        var NavBar_1 = __webpack_require__(20);
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
@@ -123,6 +123,7 @@
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var React = __webpack_require__(1);
+        var FlexTour = __webpack_require__(6);
 	var Header = (function (_super) {
 	    __extends(Header, _super);
 	    function Header() {
@@ -135,7 +136,7 @@
             }, React.createElement("span", {
                 className: "glyphicon glyphicon-play-circle",
                 "aria-hidden": "true"
-            }), React.createElement("span", {className: "header-button"}, "Demo Section!")), React.createElement("div", {className: "media-block"}, React.createElement("a", {
+            }), React.createElement("span", {className: "header-button"}, "Demo !")), React.createElement("div", {className: "media-block"}, React.createElement("a", {
                 href: "https://github.com/NhatHo/FlexTourJs",
                 target: "_blank"
             }, React.createElement("span", {className: "fa fa-github fa-4x"}))))));
@@ -143,6 +144,28 @@
 	    Header.prototype.onClick = function (event) {
 	        event.stopPropagation();
 	        event.preventDefault();
+            var tourDesc = {
+                id: "fontpageTour",
+                steps: [{
+                    content: "This is the new features section",
+                    title: "New Features",
+                    position: "top",
+                    target: "#desc"
+                }, {
+                    content: "You can checkout the demo codes in this section so that you can apply them in your own apps.",
+                    title: "Demo",
+                    position: "top",
+                    target: "#attributes"
+                }, {
+                    content: "The API of this framework is explained in details here. This will help you greatly in writing your own tours.",
+                    title: "API",
+                    position: "top",
+                    target: "#wiki"
+                }]
+            };
+            var tourDescs = [tourDesc];
+            var flextour = new FlexTour(tourDescs, {});
+            flextour.run();
 	    };
 	    return Header;
 	}(React.Component));
@@ -151,6 +174,13 @@
 
 /***/ },
 /* 6 */
+    /***/ function (module, exports) {
+
+        module.exports = FlexTour;
+
+        /***/
+    },
+    /* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -160,9 +190,9 @@
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var React = __webpack_require__(1);
-	var Description_1 = __webpack_require__(7);
-	var Attributes_1 = __webpack_require__(10);
-        var Wiki_1 = __webpack_require__(12);
+        var Description_1 = __webpack_require__(8);
+        var Attributes_1 = __webpack_require__(11);
+        var Wiki_1 = __webpack_require__(13);
 	var Body = (function (_super) {
 	    __extends(Body, _super);
 	    function Body() {
@@ -177,7 +207,7 @@
 
 
 /***/ },
-/* 7 */
+    /* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -187,8 +217,8 @@
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var React = __webpack_require__(1);
-	var NewFeatures_1 = __webpack_require__(8);
-	var SectionHeader_1 = __webpack_require__(9);
+        var NewFeatures_1 = __webpack_require__(9);
+        var SectionHeader_1 = __webpack_require__(10);
 	var Description = (function (_super) {
 	    __extends(Description, _super);
 	    function Description() {
@@ -236,7 +266,7 @@
 
 
 /***/ },
-/* 8 */
+    /* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -263,7 +293,7 @@
 
 
 /***/ },
-/* 9 */
+    /* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -287,7 +317,7 @@
 
 
 /***/ },
-/* 10 */
+    /* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -297,8 +327,8 @@
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var React = __webpack_require__(1);
-	var SectionHeader_1 = __webpack_require__(9);
-        var AttributeBox_1 = __webpack_require__(11);
+        var SectionHeader_1 = __webpack_require__(10);
+        var AttributeBox_1 = __webpack_require__(12);
 	var Attributes = (function (_super) {
 	    __extends(Attributes, _super);
 	    function Attributes() {
@@ -402,7 +432,7 @@
 
 
 /***/ },
-/* 11 */
+    /* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -427,7 +457,7 @@
 
 
 /***/ },
-/* 12 */
+    /* 13 */
     /***/ function (module, exports, __webpack_require__) {
 
         "use strict";
@@ -440,11 +470,11 @@
                 d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
             };
         var React = __webpack_require__(1);
-        var SectionHeader_1 = __webpack_require__(9);
-        var StepAttributesTab_1 = __webpack_require__(13);
-        var TourAttributesTab_1 = __webpack_require__(15);
-        var FunctionsListTab_1 = __webpack_require__(16);
-        var TranslationTab_1 = __webpack_require__(17);
+        var SectionHeader_1 = __webpack_require__(10);
+        var StepAttributesTab_1 = __webpack_require__(14);
+        var TourAttributesTab_1 = __webpack_require__(16);
+        var FunctionsListTab_1 = __webpack_require__(17);
+        var TranslationTab_1 = __webpack_require__(18);
         var LOCAL_STORAGE_KEY = "flextour.demo.attrs";
         var STEP = "step";
         var TOUR = "tour";
@@ -595,7 +625,7 @@
 
         /***/
     },
-    /* 13 */
+    /* 14 */
     /***/ function (module, exports, __webpack_require__) {
 
         "use strict";
@@ -609,7 +639,7 @@
             };
         var React = __webpack_require__(1);
         var $ = __webpack_require__(3);
-        var WikiUtils_1 = __webpack_require__(14);
+        var WikiUtils_1 = __webpack_require__(15);
         var StepAttributesTab = (function (_super) {
             __extends(StepAttributesTab, _super);
             function StepAttributesTab() {
@@ -635,7 +665,7 @@
 
         /***/
     },
-    /* 14 */
+    /* 15 */
     /***/ function (module, exports, __webpack_require__) {
 
         "use strict";
@@ -670,10 +700,10 @@
 
         /***/
     },
-    /* 15 */
-/***/ function(module, exports, __webpack_require__) {
+    /* 16 */
+    /***/ function (module, exports, __webpack_require__) {
 
-	"use strict";
+        "use strict";
         var __extends = (this && this.__extends) || function (d, b) {
                 for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
                 function __() {
@@ -684,7 +714,7 @@
             };
         var React = __webpack_require__(1);
         var $ = __webpack_require__(3);
-        var WikiUtils_1 = __webpack_require__(14);
+        var WikiUtils_1 = __webpack_require__(15);
         var TourAttributesTab = (function (_super) {
             __extends(TourAttributesTab, _super);
             function TourAttributesTab() {
@@ -710,7 +740,7 @@
 
         /***/
     },
-    /* 16 */
+    /* 17 */
     /***/ function (module, exports, __webpack_require__) {
 
         "use strict";
@@ -724,7 +754,7 @@
             };
         var React = __webpack_require__(1);
         var $ = __webpack_require__(3);
-        var WikiUtils_1 = __webpack_require__(14);
+        var WikiUtils_1 = __webpack_require__(15);
         var FunctionsListTab = (function (_super) {
             __extends(FunctionsListTab, _super);
             function FunctionsListTab() {
@@ -750,7 +780,7 @@
 
         /***/
     },
-    /* 17 */
+    /* 18 */
     /***/ function (module, exports, __webpack_require__) {
 
         "use strict";
@@ -761,7 +791,7 @@
 	};
 	var React = __webpack_require__(1);
         var $ = __webpack_require__(3);
-        var WikiUtils_1 = __webpack_require__(14);
+        var WikiUtils_1 = __webpack_require__(15);
         var TranslationTab = (function (_super) {
             __extends(TranslationTab, _super);
             function TranslationTab() {
@@ -787,7 +817,7 @@
 
         /***/
     },
-    /* 18 */
+    /* 19 */
     /***/ function (module, exports, __webpack_require__) {
 
         "use strict";
@@ -815,7 +845,7 @@
 
         /***/
     },
-    /* 19 */
+    /* 20 */
     /***/ function (module, exports, __webpack_require__) {
 
         "use strict";
@@ -837,11 +867,12 @@
 
             NavBar.prototype.render = function () {
                 if (this.props.floating) {
-                    $('.app').addClass("menu-padding");
-                    return React.createElement("div", {className: "sticky"}, React.createElement("ul", {className: "floating-nav"}, React.createElement("li", null, React.createElement("a", {onClick: this.scrollTop.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-home"}), " Top")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToDesc.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-plus-sign"}), " Features")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToAttributes.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-play"}), " Demo")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToWiki.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-book"}), " Api"))));
+                    return React.createElement("span", null, React.createElement("nav", {
+                        className: "navbar navbar-inverse navbar-static-top",
+                        id: "navbar"
+                    }, React.createElement("div", {className: "container"}, React.createElement("div", {className: "collapse navbar-collapse"}, React.createElement("ul", {className: "nav navbar-nav"}, React.createElement("li", null, React.createElement("a", {onClick: this.scrollTop.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-home"}), " Top")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToDesc.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-plus-sign"}), " Features")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToAttributes.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-play"}), " Demo")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToWiki.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-book"}), " Api")))))), React.createElement("div", {className: "sticky"}, React.createElement("ul", {className: "floating-nav"}, React.createElement("li", null, React.createElement("a", {onClick: this.scrollTop.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-home"}), " Top")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToDesc.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-plus-sign"}), " Features")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToAttributes.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-play"}), " Demo")), React.createElement("li", null, React.createElement("a", {onClick: this.scrollToWiki.bind(this)}, React.createElement("span", {className: "glyphicon glyphicon-book"}), " Api")))));
                 }
                 else {
-                    $('.app').removeClass("menu-padding");
                     return React.createElement("nav", {
                         className: "navbar navbar-inverse navbar-static-top",
                         id: "navbar"
