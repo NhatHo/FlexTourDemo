@@ -4,47 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/components/view/NavBar.tsx" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa77f254-2496-47d2-a82c-03add8db01b6" name="Default" comment="Add the library and demo with basic flow">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/img/portfolio/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/img/portfolio/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/img/portfolio/cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/img/portfolio/circus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/portfolio/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/portfolio/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/portfolio/cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/portfolio/circus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/coolfeatures/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/coolfeatures/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/coolfeatures/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedstyles/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedtriggers/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedtriggers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/customizedtriggers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/errorcheckings/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/errorcheckings/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/errorcheckings/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/longprocess/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/longprocess/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/longprocess/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/multipage/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/multipage/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/multipage/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/multipage/secondpage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/multipage/secondpage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/simple/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/simple/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/simple/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/translation/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/translation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/translation/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/libraries/FlexTourJs_node_modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/tests/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/tests/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/tests/test.js" afterPath="" />
+    <list default="true" id="aa77f254-2496-47d2-a82c-03add8db01b6" name="Default" comment="Version with demos, but without link to source code ... need to upload before adding the links">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/customizedstyles/img/portfolio/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/customizedstyles/img/portfolio/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/tests/coolfeatures/img/portfolio/cake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/flextourjs/tests/coolfeatures/img/portfolio/circus.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/customizedstyles/index.html" afterPath="$PROJECT_DIR$/demo/customizedstyles/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js.map" afterPath="$PROJECT_DIR$/dist/bundle.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/Header.js" afterPath="$PROJECT_DIR$/dist/components/view/Header.js" />
@@ -55,140 +21,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/Attributes.js.map" afterPath="$PROJECT_DIR$/dist/components/view/sections/Attributes.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/Description.js" afterPath="$PROJECT_DIR$/dist/components/view/sections/Description.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/Description.js.map" afterPath="$PROJECT_DIR$/dist/components/view/sections/Description.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/StepAttributesTab.js" afterPath="$PROJECT_DIR$/dist/components/view/sections/StepAttributesTab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/StepAttributesTab.js.map" afterPath="$PROJECT_DIR$/dist/components/view/sections/StepAttributesTab.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/TourAttributesTab.js" afterPath="$PROJECT_DIR$/dist/components/view/sections/TourAttributesTab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/TourAttributesTab.js.map" afterPath="$PROJECT_DIR$/dist/components/view/sections/TourAttributesTab.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/TranslationTab.js" afterPath="$PROJECT_DIR$/dist/components/view/sections/TranslationTab.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/view/sections/TranslationTab.js.map" afterPath="$PROJECT_DIR$/dist/components/view/sections/TranslationTab.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/compiler.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/jsLinters/jshint.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/jsLinters/jshint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/jsLinters/jslint.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/jsLinters/jslint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/misc.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/modules.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/vcs.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/node_modules/flextourjs/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/core.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.slim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.slim.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/dist/jquery.slim.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/external/sizzle/dist/sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/external/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/package.json" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/.eslintrc" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/parseXML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/var/location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/var/nonce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/var/rquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/ajax/xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/DOMEval.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/DOMEval.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/access.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/parseHTML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/ready-no-deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/readyException.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/readyException.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/support.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/core/var/rsingleTag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/addGetHookIf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/adjustCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/curCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/showHide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/cssExpand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/getStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/rmargin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/css/var/swap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/var/acceptData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/var/dataPriv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/data/var/dataUser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/deferred/exceptionHook.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/deferred/exceptionHook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/effects.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/effects/Tween.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/effects/animatedSelector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/alias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/focusin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/event/trigger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/exports/amd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/exports/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/buildFragment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/getAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/var/rtagName.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/manipulation/wrapMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/offset.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/queue.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/queue/delay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/selector-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/selector-sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/selector.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/findFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/var/dir.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/traversing/var/siblings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/ObjectFunctionString.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/ObjectFunctionString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/arr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/class2type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/concat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/document.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/documentElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/fnToString.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/fnToString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/getProto.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/getProto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/hasOwn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/indexOf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/pnum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/rcssNum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/rnotwhite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/slice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/var/toString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/node_modules/flextourjs/node_modules/jquery/src/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" afterPath="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/sections/Description.tsx" afterPath="$PROJECT_DIR$/src/components/view/sections/Description.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/sections/StepAttributesTab.tsx" afterPath="$PROJECT_DIR$/src/components/view/sections/StepAttributesTab.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/sections/TourAttributesTab.tsx" afterPath="$PROJECT_DIR$/src/components/view/sections/TourAttributesTab.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/view/sections/TranslationTab.tsx" afterPath="$PROJECT_DIR$/src/components/view/sections/TranslationTab.tsx" />
     </list>
     <ignored path="FlexTourDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -214,26 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StepAttributesTab.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/view/sections/StepAttributesTab.tsx">
+      <file leaf-file-name="Attributes.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/view/sections/Attributes.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="23" column="462" selection-start-line="23" selection-start-column="462" selection-end-line="23" selection-end-column="462" />
+            <state relative-caret-position="787">
+              <caret line="108" column="172" selection-start-line="108" selection-start-column="172" selection-end-line="108" selection-end-column="172" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="n#!!block;n#render#0;n#StepAttributesTab#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TourAttributesTab.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/view/sections/TourAttributesTab.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="n#!!block;n#_regularTourRunner#0;n#Attributes#0" expanded="true" />
+                <element signature="n#!!block;n#_prerequisitesAndBranching#0;n#Attributes#0" expanded="true" />
+                <element signature="n#!!block;n#_waitForElementAndFinalResort#0;n#Attributes#0" expanded="true" />
+                <element signature="n#!!block;n#_multipagePauseAndResume#0;n#Attributes#0" expanded="true" />
+                <element signature="n#!!block;n#_nextTriggerDnD#0;n#Attributes#0" expanded="true" />
+                <element signature="n#!!block;n#_standaloneBubble#0;n#Attributes#0" expanded="true" />
+                <element signature="n#!!block;n#_floatingElements#0;n#Attributes#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -302,7 +129,6 @@
         <option value="$PROJECT_DIR$/demo/multipage/secondpage.html" />
         <option value="$PROJECT_DIR$/demo/errorcheckings/index.html" />
         <option value="$PROJECT_DIR$/demo/translation/index.js" />
-        <option value="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" />
         <option value="$PROJECT_DIR$/demo/simple/index.js" />
         <option value="$PROJECT_DIR$/demo/simple/index.html" />
         <option value="$PROJECT_DIR$/src/components/view/sections/Description.tsx" />
@@ -316,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/components/view/sections/TranslationTab.tsx" />
         <option value="$PROJECT_DIR$/demo/customizedstyles/index.less" />
         <option value="$PROJECT_DIR$/src/components/view/sections/TourAttributesTab.tsx" />
+        <option value="$PROJECT_DIR$/src/components/view/sections/Attributes.tsx" />
       </list>
     </option>
   </component>
@@ -496,7 +323,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,33 +337,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlexTourDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlexTourDemo" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,33 +359,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlexTourDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlexTourDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="customizedstyles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -602,15 +389,15 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NhatHoWorkSpace\FlexTourDemo\src\components\view\sections" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\NhatHoWorkSpace\FlexTourDemo\demo\img\portfolio" />
       <recent name="D:\NhatHoWorkSpace\FlexTourDemo\demo" />
       <recent name="D:\NhatHoWorkSpace\FlexTourDemo\demo\multipage" />
       <recent name="D:\NhatHoWorkSpace\FlexTourDemo\src\components\view" />
       <recent name="D:\NhatHoWorkSpace\FlexTourDemo\typings\globals\jquery" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\NhatHoWorkSpace\FlexTourDemo\src\components\view\sections" />
     </key>
   </component>
   <component name="RunManager">
@@ -839,7 +626,7 @@
       <workItem from="1471798111201" duration="615000" />
       <workItem from="1471836685616" duration="1828000" />
       <workItem from="1471868832151" duration="10375000" />
-      <workItem from="1471970399092" duration="9605000" />
+      <workItem from="1471970399092" duration="9971000" />
     </task>
     <task id="LOCAL-00001" summary="Add attributes section of the web.">
       <created>1467864199228</created>
@@ -855,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468382410181</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Version with demos, but without link to source code ... need to upload before adding the links">
+      <created>1472008201665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1472008201665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211113000" />
+    <option name="totallyTimeSpent" value="211479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,11 +674,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3830619" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3540175" sideWeight="0.5032467" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22991249" sideWeight="0.5102612" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22991249" sideWeight="0.4976809" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22991249" sideWeight="0.4897388" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34309947" sideWeight="0.49675325" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34287986" sideWeight="0.49300373" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -925,7 +719,8 @@
     <MESSAGE value="Add attributes section of the web." />
     <MESSAGE value="Still have the API and demo web pages left." />
     <MESSAGE value="Add the library and demo with basic flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the library and demo with basic flow" />
+    <MESSAGE value="Version with demos, but without link to source code ... need to upload before adding the links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version with demos, but without link to source code ... need to upload before adding the links" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1064,6 +859,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,6 +867,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,6 +887,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,6 +897,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#230#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,6 +907,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,6 +915,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="208" column="1" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,6 +923,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="207" column="14" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,6 +931,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="142" column="6" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,6 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,6 +962,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,6 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,16 +978,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/view/sections/Attributes.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="96" column="94" selection-start-line="96" selection-start-column="94" selection-end-line="96" selection-end-column="94" />
           <folding>
-            <element signature="n#!!block;n#_floatingElements#0;n#Attributes#0" expanded="false" />
-            <element signature="n#!!block;n#_nlsTranslation#0;n#Attributes#0" expanded="false" />
+            <element signature="e#0#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1221,9 +1025,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,17 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/view/sections/StepAttributesTab.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="23" column="462" selection-start-line="23" selection-start-column="462" selection-end-line="23" selection-end-column="462" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="n#!!block;n#render#0;n#StepAttributesTab#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1319,8 +1110,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/view/sections/StepAttributesTab.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="23" column="462" selection-start-line="23" selection-start-column="462" selection-end-line="23" selection-end-column="462" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#StepAttributesTab#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/view/sections/Attributes.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="108" column="172" selection-start-line="108" selection-start-column="172" selection-end-line="108" selection-end-column="172" />
+          <folding>
+            <element signature="n#!!block;n#_regularTourRunner#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#_prerequisitesAndBranching#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#_waitForElementAndFinalResort#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#_multipagePauseAndResume#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#_nextTriggerDnD#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#_standaloneBubble#0;n#Attributes#0" expanded="true" />
+            <element signature="n#!!block;n#_floatingElements#0;n#Attributes#0" expanded="true" />
           </folding>
         </state>
       </provider>
