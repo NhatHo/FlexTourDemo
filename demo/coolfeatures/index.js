@@ -28,9 +28,9 @@
             modal: true
         }, {
             content: "In this step 'scrollLock' attribute is set to 'true'. It means that the scrolling capability of this page is temporarily disabled in this step. This method will hugely reduce processing time since there isn't any re-rendering.",
-            position: "left",
+            position: "bottom",
             target: ".img-centered[src='../img/portfolio/cake.png']",
-            title: "Default Settings",
+            title: "Scroll Lock Settings",
             prerequisites: ["?isVisible:@target@"],
             noBack: true,
             modal: true,
