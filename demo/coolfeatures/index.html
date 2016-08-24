@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2016. MIT License.
+  ~ NhatHo-nhatminhhoca@gmail.com
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cool Features</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="../../node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet/less" type="text/css" href="../../node_modules/flextourjs/dist/flextour.less"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+<header>
+    <div class="page-header">
+        <div class="container">
+            <h1>Deal With Modals</h1>
+            <a id="demoButton" class="page-scroll btn btn-success btn-lg">
+                <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                <span class="header-button">Run Tour</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 portfolio-item">
+                <a id="cake" href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="../img/portfolio/cake.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Modals -->
+<div class="modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="modal-body">
+            <h2>Cake Modal View</h2>
+            <hr class="star-primary">
+            <img src="../img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+            <button id="closemodal" type="button" class="btn btn-default" data-dismiss="modal"><i
+                    class="fa fa-times"></i> Close
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- About Section -->
+    <section id="about">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Just something to make the page longer</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="../img/portfolio/1.jpg" alt="">
+                        </div>
+                        <div id="leftblock" class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
+                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="../img/portfolio/2.jpg" alt="">
+                        </div>
+                        <div id="rightblock" class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
+                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div id="bottomblock" class="timeline-image">
+                            <h4>EASY
+                                <br>RIGHT?</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Explanation Section -->
+<section class="success" id="explain">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Explanations</h2>
+                <hr class="star-light">
+                <h3>There are 2 methods to deal with modal in this tour.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1">
+                <p><b>First feature:</b> Set 'modal: true' attribute and the framework will make sure that its
+                    components will be up-to-date to your modal's position. However, this method takes a bit of
+                    processing time (debounce every 0.2 seconds).</p>
+            </div>
+            <div class="col-lg-5">
+                <p><b>Second feature:</b> Along with 'modal: true', you can also set 'scrollLock: true' attribute to
+                    make scrolling disabled for that step. This will keep the modal in place which improve performance a
+                    little bit. However, do not use this attribute if you need users to scroll.</p>
+            </div>
+        </div>
+        <br/><br/>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <p><b>NOTICE:</b> The overlay cannot cover the modal (usually 'fixed' position) as it can cover static
+                    components in the page. Due to this limitation, the problems might occur when users click on
+                    unwanted buttons in the modal and break the flow.</p><br/>
+                <p><b>HINTS:</b> You can create a 'prerequisites' function that would disable unwanted buttons in your
+                    application at the beginning of the step, then restore them after. Or you can just hope that users
+                    will follow your step description.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Dependencies -->
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../node_modules/less/dist/less.min.js"></script>
+<script src="../../node_modules/flextourjs/dist/flextour.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

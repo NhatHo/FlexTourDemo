@@ -23,42 +23,42 @@ var Attributes = (function (_super) {
     };
     Attributes.prototype._regularTourRunner = function () {
         var body = "In this example, FlexTourJS simply moves between steps without any fancy features. This might be used for simple applications where each step exist and are visible in the DOM when the page is loaded.";
-        var buttons = this._linkToDemoAndSource("regular", "regular");
+        var buttons = this._linkToDemoAndSource("../../../../demo/simple/index.html", "regular");
         return this._attributeContentBlock(body, buttons);
     };
     Attributes.prototype._prerequisitesAndBranching = function () {
         var body = "When your applications get complicated, maybe the next step in your tour is important to show, but it might not be available yet. FlexTourJS allows you to slow down the flow, and possibly skips steps entirely in case something bad happens.";
-        var buttons = this._linkToDemoAndSource("prerequisite", "prerequisite");
+        var buttons = this._linkToDemoAndSource("../../../../demo/errorcheckings/index.html", "prerequisite");
         return this._attributeContentBlock(body, buttons);
     };
     Attributes.prototype._waitForElementAndFinalResort = function () {
-        var body = "Consider this: when your application makes an AJAX call or processing something that takes up a lot of time, your tour might need to wait for it to be done. This demo shows you how to make the tour wait, while explaining to users what is going on. Furthermore, if anything goes wrong in the process, you can setup a backup route so that your tour will not end abruptly.";
-        var buttons = this._linkToDemoAndSource("wait", "wait");
+        var body = "Consider this: when your application makes an AJAX call or processing something that takes up a lot of time, your tour might need to wait for the process to finish. This demo shows you how to make the tour wait, while explaining to users what is going on. Furthermore, if anything goes wrong in the process, you can setup a backup route so that your tour will not end abruptly.";
+        var buttons = this._linkToDemoAndSource("../../../../demo/longprocess/index.html", "wait");
         return this._attributeContentBlock(body, buttons);
     };
     Attributes.prototype._multipagePauseAndResume = function () {
         var body = "When your tour spans multiple pages, just set the multipage flag to true in the step that opens new page and FlexTourJS will take care of the rest. Requirement: the next page must also have FlexTourJS framework and current tour loaded. The framework will automatically continue your tour from previous page. Furthermore, you can pause and resume the tour anytime you like.";
-        var buttons = this._linkToDemoAndSource("multipage", "multipage");
+        var buttons = this._linkToDemoAndSource("../../../../demo/multipage/index.html", "multipage");
         return this._attributeContentBlock(body, buttons);
     };
     Attributes.prototype._nextTriggerDnD = function () {
         var body = "Enabling dragAndDrop flag to true in step description will allow you to drag and drop target around without breaking your current tour. Directional buttons in the bubble are not the only way to control the flow, you can make a button in your application to next step trigger. This demo will show you how.";
-        var buttons = this._linkToDemoAndSource("trigger", "trigger");
+        var buttons = this._linkToDemoAndSource("../../../../demo/customizedtriggers/index.html", "trigger");
         return this._attributeContentBlock(body, buttons);
     };
     Attributes.prototype._standaloneBubble = function () {
         var body = "You don't think FlexTourJS bubble is good enough for you? No problem, you can just create your own version with functional buttons. This demo will show you how to do that. You don't like the default color and styles? Just import the less file and override the variables with your own selections.";
-        var buttons = this._linkToDemoAndSource("standalone", "standalone");
+        var buttons = this._linkToDemoAndSource("../../../../demo/customizedstyles/index.html", "standalone");
         return this._attributeContentBlock(body, buttons);
     };
     Attributes.prototype._floatingElements = function () {
         var body = "More often that not your application has a floating element which never stays still. FlexTourJS has 2 ways to handle this scenario, either you block scrolling when this step is showed, or you let the framework re-render every 200 milliseconds.";
-        var buttons = this._linkToDemoAndSource("floating", "floating");
+        var buttons = this._linkToDemoAndSource("../../../../demo/coolfeatures/index.html", "floating");
         return this._attributeContentBlock(body, buttons);
     };
     Attributes.prototype._nlsTranslation = function () {
         var body = "Your application can go global and you might need to translate the instruction in the tour. FlexTourJS offers an easy way out so that you do not need to create and maintain multiple tour description JSON objects. Step description will be injected automatically.";
-        var buttons = this._linkToDemoAndSource("floating", "floating");
+        var buttons = this._linkToDemoAndSource("../../../../demo/translation/index.html", "floating");
         return this._attributeContentBlock(body, buttons);
     };
     return Attributes;

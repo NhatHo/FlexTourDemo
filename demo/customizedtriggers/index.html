@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customized Triggers</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="../../node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet/less" type="text/css" href="../../node_modules/flextourjs/dist/flextour.less"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+<header>
+    <div class="page-header">
+        <div class="container">
+            <h1>DnD and Customized Triggers</h1>
+            <a id="demoButton" class="page-scroll btn btn-success btn-lg">
+                <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                <span class="header-button">Run Tour</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">SOURCE</h3>
+                    </div>
+                    <div id="srcZone" class="panel-body">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img id="circus" draggable="true" src="../img/portfolio/circus.png" class="img-responsive"
+                                 alt="" ondragstart="drag(event)">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">DESTINATION</h3>
+                    </div>
+                    <div class="panel-body" id="dropZone" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 page-header">
+                <button id="revert" type="button" class="btn btn-primary">Revert It</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Explanation Section -->
+<section class="success" id="explain">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Explanations</h2>
+                <hr class="star-light">
+                <h3>There are 2 features in this tour.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1">
+                <p><b>First feature:</b> Set 'dragAndDrop' attribute to true on the step where DnD is enabled. On drag
+                    event, the framework will release hold and wait till the target is dropped at which point the tour
+                    will be resume. Recommendation: on the step after DnD, you should set 'prerequisites' to check if
+                    user drop the target at correct location (return false when not). This feature allows framework to
+                    decide whether next step is valid or it should stay on the current step until user drops correctly.
+                </p>
+            </div>
+            <div class="col-lg-5">
+                <p><b>Second feature:</b> As you may have seen, the flow can be triggered by a button in your
+                    application. To do this, you just need to give 'nextStepTrigger' attribute the JQuery selector
+                    string. You can also provide a shortcut '@target@' which means that the trigger is the target of the
+                    step so that you don't have to rewrite the whole selector string.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Dependencies -->
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../node_modules/less/dist/less.min.js"></script>
+<script src="../../node_modules/flextourjs/dist/flextour.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

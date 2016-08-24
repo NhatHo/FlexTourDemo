@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2016. MIT License.
+  ~ NhatHo-nhatminhhoca@gmail.com
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="../../node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet/less" type="text/css" href="../../node_modules/flextourjs/dist/flextour.less"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+<header>
+    <div class="page-header">
+        <div class="container">
+            <h1>Multipage Page 2</h1>
+            <a id="demoButton" class="page-scroll btn btn-success btn-lg">
+                <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                <span class="header-button">Run Tour</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 portfolio-item">
+                <a id="cake" href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="../img/portfolio/cake.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Modals -->
+<div class="modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="modal-body">
+            <h2>Cake Modal View</h2>
+            <hr class="star-primary">
+            <img src="../img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+            <button id="closemodal" type="button" class="btn btn-default" data-dismiss="modal"><i
+                    class="fa fa-times"></i> Close
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Explanation Section -->
+<section class="success" id="explain">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Explanations</h2>
+                <hr class="star-light">
+                <h3>There are 2 features in this tour.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1">
+                <p><b>Multipage feature:</b> On the step which would trigger a new page, you should set 'multipage:
+                    true' attribute. When user triggers the transition, the framework uses LocalStorage to keep the
+                    current step number and tour id. When the new page is loaded, the application should provide
+                    FlexTourJS with the same tour objects and the app must trigger 'run' action. The framework will
+                    automatically pick up the next step and run as normal.</p>
+            </div>
+            <div class="col-lg-5">
+                <p><b>Save Point feature:</b> When the 'saveOnExit: true' attribute is set, whenever the tour is ended
+                    abruptly (pressing ESC or clicking on X button or clicking on overlay) the framework will save the
+                    current step number and tour id. So that when user re-run the same tour, the framework will pick up
+                    where it was left off. However, as showed in the demo, some steps are not showed when the page
+                    started (modal, dropdown menus, etc.). 'savePoint: true' attribute should be set on the step where
+                    you can be sure that it will exist so that the tour will resume on that step.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Dependencies -->
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../node_modules/less/dist/less.min.js"></script>
+<script src="../../node_modules/flextourjs/dist/flextour.js"></script>
+<script src="secondpage.js"></script>
+
+</body>
+</html>

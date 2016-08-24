@@ -31,7 +31,7 @@ export class Description extends React.Component<{},{}> {
                             title="Power!!!"
                             content="The power is in your hands, you can create new bubble styles, add new buttons and attach functionalities to them. Let your imagination run wild."
                             icon="fa-unlock"
-                            code="buttons:['buttonName:buttonStyle:buttonOnClick']"/>
+                            code="buttons:[{name: '', style: '', onclick: func()}, ...]"/>
                         <NewFeatures
                             title="Show off features?"
                             content="FlexTourJS will not limit your application in any way, you can do drag and drop, popup menu, dropdown menu, etc. without breaking your flow."
